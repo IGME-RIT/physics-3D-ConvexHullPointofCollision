@@ -410,8 +410,8 @@ void init()
 	glEnable(GL_DEPTH_TEST);
 
 	// Read in the shader code from a file.
-	std::string vertShader = readShader("VertexShader.glsl");
-	std::string fragShader = readShader("FragmentShader.glsl");
+	std::string vertShader = readShader("../VertexShader.glsl");
+	std::string fragShader = readShader("../FragmentShader.glsl");
 
 	// createShader consolidates all of the shader compilation code
 	vertex_shader = createShader(vertShader, GL_VERTEX_SHADER);

@@ -72,7 +72,7 @@ Nicholas Gallagher
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "glew\glew.h"
+#include "gl\glew.h"
 #include "glfw\glfw3.h"
 #include "glm\glm.hpp"
 #include "glm\gtc\matrix_transform.hpp"
